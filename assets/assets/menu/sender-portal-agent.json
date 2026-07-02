@@ -1,0 +1,96 @@
+[
+     {
+        "__comment__": "sender manager and agent has different dashboard",
+        "name": {
+            "en": "Dashboard"
+        },
+        "key": "sp-agent-dashboard",
+        "icon": "fas-gauge",
+        "path": "/cms/agent-dashboard/"
+    },
+    {
+        "name": {
+            "en": "Work Order"
+        },
+        "key": "saas-order",
+        "icon": "fas-inbox",
+        "path": "/cms/work-order"
+    },
+    {
+        "name": {
+            "en": "Partner Job"
+        },
+        "key": "partner-job",
+        "icon": "fas-inbox",
+        "path": "/cms/partner-job"
+    },
+    {
+        "name": {
+            "en": "Partner Task"
+        },
+        "key": "partner-task",
+        "icon": "fas-inbox",
+        "path": "/cms/partner-task"
+    },
+   
+    
+    {
+        "__comment__": "change to partner management later",
+        "name": {
+            "en": "Partners"
+        },
+        "key": "partners-location",
+        "icon": "fas-location-dot",
+        "path": "/cms/partner/location/"
+    },
+    {
+        "name": {
+            "en": "Ticket"
+        },
+        "key": "sender-ticket",
+        "icon": "fas-comments",
+        "path": "/cms/sender-ticket/"
+    },
+    {
+        "name": {
+            "en": "Help"
+        },
+        "key": "sp-help",
+        "icon": "fas-circle-question",
+        "child":[
+            {
+                "name": {
+                    "en": "Internal"
+                },
+                "key": "sp-support-tenant",
+                "icon": "fas-circle-info",
+                "path": "/cms/support/tenant/"
+            },
+            {
+                "name": {
+                    "en": "Platform"
+                },
+                "key": "sp-support-platform",
+                "icon": "fas-circle-question",
+                "path": "/cms/support/platform/"
+            }
+           
+        ]
+    },
+    {
+        "name": {
+            "en": "Messages"
+        },
+        "key": "sp-messages",
+        "icon": "fas-envelope",
+        "path": "/sp/:sender/sp/message/"
+    },
+    {
+        "name": {
+            "en": "Setting"
+        },
+        "key": "sp-setting",
+        "icon": "fas-cog",
+        "path": "/sp/settings"
+    }
+]

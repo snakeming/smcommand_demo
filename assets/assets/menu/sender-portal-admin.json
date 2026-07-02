@@ -1,0 +1,289 @@
+[
+
+    {
+        "name": {
+            "en": "Demand"
+        },
+        "key": "adm-demand",
+        "icon": "fas-person-biking",
+        "child": [
+            {
+                "name": {
+                    "en": "Control Tower"
+                },
+                "key": "ops-control-tower",
+                "icon": "fas-route",
+               
+                "__old_path": "/cms/task-pool-overview/",
+                "path": "/cms/control-tower/"
+            }
+        ]
+    },
+
+    {
+        "name": {
+            "en": "Network"
+        },
+        "key": "adm-network",
+        "icon": "fas-person-biking",
+        "child": [
+            {
+                "name": {
+                    "en": "Control Tower"
+                },
+                "key": "ops-control-tower",
+                "icon": "fas-route",
+               
+                "__old_path": "/cms/task-pool-overview/",
+                "path": "/cms/control-tower/"
+            },
+            {
+                "name": {
+                    "en": "Orchestration"
+                },
+                "key": "ops-orchestration",
+                "icon": "fas-route",
+                "__old_path": "/cms/route-plan-list/",
+                "path": "/cms/orchestration/"
+            },
+            {
+                "name": {
+                    "en": "Execution"
+                },
+                "key": "ops-execution",
+                "icon": "fas-chart-simple",
+                "__old_path": "/cms/rounds-overview",
+                "path": "/cms/execution/"
+            },
+            {
+                "name": {
+                    "en": "Compliance"
+                },
+                "key": "ops-compliance",
+                "icon": "fas-chart-simple",
+                "__remark": "conditional, only for cross-border",
+                "path": "/cms/compliance/"
+            }
+        ]
+    },
+
+    {
+        "name": {
+            "en": "Capacity"
+        },
+        "key": "adm-capacity",
+        "icon": "fas-person-biking",
+        "child": [
+            
+            {
+                "name": {
+                    "en": "Control Tower"
+                },
+                "key": "ops-control-tower",
+                "icon": "fas-route",
+               
+                "__old_path": "/cms/task-pool-overview/",
+                "path": "/cms/control-tower/"
+            }
+        ]
+    },
+
+
+
+    {
+        "__comment__": "sender manager and agent has different dashboard",
+        "name": {
+            "en": "Dashboard"
+        },
+        "key": "sp-sender-manager-dashboard",
+        "icon": "fas-gauge",
+        "path": "/cms/sender-manager-dashboard/"
+    },
+    {
+        "name": {
+            "en": "Fulfillment Order"
+        },
+        "key": "saas-order",
+        "icon": "fas-inbox",
+        "path": "/cms/work-order"
+    },
+    {
+        "name": {
+            "en": "Partner Job"
+        },
+        "key": "partner-job",
+        "icon": "fas-inbox",
+        "path": "/cms/partner-job"
+    },
+    {
+        "name": {
+            "en": "Fulfillment Leg"
+        },
+        "key": "partner-task",
+        "icon": "fas-inbox",
+        "path": "/cms/partner-task"
+    },
+    {
+        "name": {
+            "en": "Dashboard"
+        },
+        "key": "sp-dashboard",
+        "icon": "fas-gauge",
+        "path": "/cms/dashboard/"
+    },
+    
+    {
+        "name": {
+            "en": "Partners"
+        },
+        "key": "partners-location",
+        "icon": "fas-location-dot",
+        "path": "/cms/partner/location/"
+    },
+    {
+        "name": {
+            "en": "Operation Command"
+        },
+        "key": "ops-command",
+        "icon": "fas-person-biking",
+        "child": [
+            {
+                "name": {
+                    "en": "Control Tower"
+                },
+                "key": "ops-control-tower",
+                "icon": "fas-route",
+               
+                "__old_path": "/cms/task-pool-overview/",
+                "path": "/cms/control-tower/"
+            },
+            {
+                "name": {
+                    "en": "Orchestration"
+                },
+                "key": "ops-orchestration",
+                "icon": "fas-route",
+                "__old_path": "/cms/route-plan-list/",
+                "path": "/cms/orchestration/"
+            },
+            {
+                "name": {
+                    "en": "Execution"
+                },
+                "key": "ops-execution",
+                "icon": "fas-chart-simple",
+                "__old_path": "/cms/rounds-overview",
+                "path": "/cms/execution/"
+            },
+            {
+                "name": {
+                    "en": "Compliance"
+                },
+                "key": "ops-compliance",
+                "icon": "fas-chart-simple",
+                "__remark": "conditional, only for cross-border",
+                "path": "/cms/compliance/"
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Map"
+        },
+        "key": "sp-map",
+        "icon": "fas-map-marked-alt",
+        "child": [
+            {
+                "name": {
+                    "en": "Sender"
+                },
+                "key": "sp-sender",
+                "icon": "fas-location-dot",
+                "path": "/cms/senders/map/"
+            }, 
+            {
+                "name": {
+                        "en": "Sender"
+                    },
+                    "key": "sp-sender",
+                "icon": "fas-location-dot",
+                "path": "/cms/sender/network-map/"
+            }
+       ]
+    },
+    {
+        "name": {
+            "en": "Ticket[TODO]"
+        },
+        "key": "sp-ticket",
+        "icon": "fas-comments",
+        "path": "/sp/:sender/ticket/"
+    },
+    {
+        "name": {
+            "en": "Insight[TODO]"
+        },
+        "key": "sp-insight",
+        "icon": "fas-chart-simple",
+        "path": "/sp/:sender/insight/"
+    },
+    {
+        "name": {
+            "en": "Administration"
+        },
+        "key": "sp-admin",
+        "icon": "fas-wrench",
+        "child": [
+            {
+                "name": {
+                    "en": "Calendar"
+                },
+                "key": "sp-calendar",
+                "icon": "fas-calendar",
+                "path": "/cms/sender/calendar"
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Help"
+        },
+        "key": "sp-help",
+        "icon": "fas-circle-question",
+        "child":[
+            {
+                "name": {
+                    "en": "Internal"
+                },
+                "key": "sp-support-tenant",
+                "icon": "fas-circle-info",
+                "path": "/cms/support/tenant/"
+            },
+            {
+                "name": {
+                    "en": "Platform"
+                },
+                "key": "sp-support-platform",
+                "icon": "fas-circle-question",
+                "path": "/cms/support/platform/"
+            }
+           
+        ]
+    },
+    {
+        "name": {
+            "en": "Messages[TODO]"
+        },
+        "key": "sp-messages",
+        "icon": "fas-envelope",
+        "path": "/sp/:sender/sp/message/"
+    },
+    {
+        "name": {
+            "en": "Setting"
+        },
+        "key": "sp-setting",
+        "icon": "fas-cog",
+        "path": "/sp/settings"
+    }
+]

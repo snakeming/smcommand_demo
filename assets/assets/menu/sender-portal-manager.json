@@ -1,0 +1,532 @@
+[
+    {
+        "__comment__": "sender manager and agent has different dashboard",
+        "name": { "en": "Dashboard" },
+        "key": "sp-sender-manager-dashboard",
+        "icon": "fas-chart-line",
+        "path": "/cms/sender-manager-dashboard/"
+    },
+    {
+        "name": { "en": "Legacy" },
+        "key": "ops-legacy",
+        "icon": "fas-box-archive",
+        "child": [
+            {
+                "name": { "en": "Fulfillment Order" },
+                "key": "saas-order",
+                "icon": "fas-box",
+                "path": "/cms/work-order"
+            },
+            {
+                "name": { "en": "Partner Job" },
+                "key": "partner-job",
+                "icon": "fas-briefcase",
+                "path": "/cms/partner-job"
+            },
+            {
+                "name": { "en": "Fulfillment Leg" },
+                "key": "partner-task",
+                "icon": "fas-diagram-project",
+                "path": "/cms/partner-task"
+            },
+            {
+                "name": { "en": "Calendar" },
+                "key": "sp-calendar",
+                "icon": "fas-calendar-days",
+                "path": "/cms/sender/calendar"
+            }
+        ]
+    },
+    {
+        "name": { "en": "Demand Owner" },
+        "key": "ops-demand",
+        "icon": "fas-user-tie",
+        "child": [
+            {
+                "name": { "en": "Dashboard" },
+                "key": "sp-dashboard",
+                "icon": "fas-chart-line",
+                "path": "/cms/dashboard/"
+            },
+            {
+                "name": { "en": "Fulfillment Order2" },
+                "key": "saas-order",
+                "icon": "fas-box",
+                "path": "/cms/work-order-command"
+            },
+            {
+                "name": { "en": "Partner Job " },
+                "key": "partner-job",
+                "icon": "fas-briefcase",
+                "path": "/cms/partner-job-command"
+            },
+            {
+                "name": { "en": "Partner Task" },
+                "key": "partner-task",
+                "icon": "fas-diagram-project",
+                "path": "/cms/partner-task-command"
+            },
+            {
+                "name": { "en": "Parcel Command" },
+                "key": "parcel-command",
+                "icon": "fas-box",
+                "path": "/cms/parcel-command"
+            },
+            {
+                "name": { "en": "Container Command" },
+                "key": "container-command",
+                "icon": "fas-box",
+                "path": "/cms/container-command"
+            },
+            {
+                "name": { "en": "Shipment Command" },
+                "key": "shipment-command",
+                "icon": "fas-box",
+                "path": "/cms/shipment-command"
+            },
+            {
+                "name": { "en": "Task Execution Support Console" },
+                "key": "partner-task-exe-support-console",
+                "icon": "fas-headset",
+                "path": "/cms/partner-task-exe-support-console"
+            },
+            {
+                "name": { "en": "Job Dispatch Console" },
+                "key": "partner-job-dispatch-console",
+                "icon": "fas-truck-dispatch",
+                "path": "/cms/dispatch-console"
+            },
+            {
+                "name": { "en": "Calendar" },
+                "key": "sp-calendar",
+                "icon": "fas-calendar-days",
+                "path": "/cms/sender/calendar_v2"
+            }
+        ]
+    },
+    
+    {
+        "name": { "en": "Operation command" },
+        "key": "ops-command",
+        "icon": "fas-tower-broadcast",
+        "child": [
+            {
+                "name": { "en": "Task pools" },
+                "key": "ops-task-pool-listing",
+                "icon": "fas-layer-group",
+                "path": "/cms/task-pool-listing/"
+            },
+            {
+                "name": { "en": "Task pool overview" },
+                "key": "ops-task-pool-overview",
+                "icon": "fas-chart-pie",
+                "path": "/cms/task-pool-overview/"
+            },
+            {
+                "name": { "en": "Route Plan List" },
+                "key": "ops-route-plan-list",
+                "icon": "fas-route",
+                "path": "/cms/route-plan-command/"
+            },
+            {
+                "name": { "en": "Route Plan v2" },
+                "key": "ops-route-plan-v2",
+                "icon": "fas-route",
+                "path": "/cms/route-plan-v2/"
+            },
+            {
+                "name": { "en": "Rounds" },
+                "key": "ops-rounds-overview",
+                "icon": "fas-arrows-rotate",
+                "path": "/cms/rounds-overview"
+            },
+            {
+                "name": { "en": "Sender Map" },
+                "key": "sp-sender",
+                "icon": "fas-map-location-dot",
+                "path": "/cms/senders/map/"
+            },
+            {
+                "name": { "en": "Hub Network" },
+                "key": "sp-hub-network",
+                "icon": "fas-map-marked-alt",
+                "path": "/cms/sender/network-map/"
+            },
+            {
+                "name": { "en": "Instant Assignments" },
+                "key": "instant-assignment",
+                "icon": "fas-tasks",
+                "path": "/cms/instant-assignment/"
+            },
+        
+            {
+                "name": { "en": "Hub Operation Console" },
+                "key": "hub-ops-console",
+                "icon": "fas-tower-broadcast",
+                "path": "/cms/hub-ops-console/"
+            },
+            {
+                "name": { "en": "Hub Command Center" },
+                "key": "hub-command-center",
+                "icon": "fas-tower-broadcast",
+                "path": "/cms/hub-command-center/"
+            },
+            {
+                "name": { "en": "Hub Work Order" },
+                "key": "hub-work-order",
+                "icon": "fas-box",
+                "path": "/cms/hub-work-order/"
+            },
+            {
+                "name": { "en": "Demo Page" },
+                "key": "sp-demo-page-1",
+                "icon": "fas-circle-question",
+                "child": [
+                    {
+                        "name": { "en": "Instant dashboard" },
+                        "key": "ops-instant-dashboard",
+                        "icon": "fas-gauge-high",
+                        "path": "/cms/instant-dashboard/"
+                    },
+                    {
+                        "name": { "en": "Instant Live Dispatch" },
+                        "key": "instant-live-dispatch",
+                        "icon": "fas-truck",
+                        "path": "/cms/instant-live-dispatch/"
+                    },
+                    {
+                        "name": { "en": "Instant Active Jobs" },
+                        "key": "instant-active-jobs",
+                        "icon": "fas-play",
+                        "path": "/cms/instant-active-jobs/"
+                    }
+
+                ]
+            }
+        ]
+    },
+    
+    {
+        "name": { "en": "Internal Capacity Provider" },
+        "key": "ops-int-capacity",
+        "icon": "fas-warehouse",
+        "child": [
+            {
+                "name": { "en": "Network allocation" },
+                "key": "ops-network-allocation",
+                "icon": "fas-sitemap",
+                "path": "/cms/network-allocation/"
+            },
+            {
+                "name": { "en": "Partners" },
+                "key": "partners-location",
+                "icon": "fas-handshake",
+                "path": "/cms/partner/location/"
+            },
+            {
+                "name": { "en": "Partner Map" },
+                "key": "partner-map",
+                "icon": "fas-map-location-dot",
+                "path": "/cms/partner-map/"
+            }
+        ]
+    },
+    {
+        "name": { "en": "Ticket" },
+        "key": "sp-ticket",
+        "icon": "fas-ticket",
+        "path": "/cms/ticket/"
+    },
+    {
+        "name": { "en": "Insight[TODO]" },
+        "key": "sp-insight",
+        "icon": "fas-chart-line",
+        "path": "/sp/:sender/insight/"
+    },
+     {
+        "name": { "en": "Export center" },
+        "key": "sp-export-center",
+        "icon": "fas-chart-line",
+        "path": "/cms/export-center/"
+    },
+    {
+        "name": { "en": "Testing Center" },
+        "key": "ops-training",
+        "icon": "fas-graduation-cap",
+        "child": [
+
+            {
+                
+                "__name": "Question bank",
+                "name": { "en": "Question bank" },
+                "key": "ops-question-bank",
+                "icon": "fas-database",
+                "path": "/cms/training-question-bank/"
+            },
+            {
+                "__name": "Question pool",
+                "name": { "en": "Question pool" },
+                "key": "ops-question-pool",
+                "icon": "fas-layer-group",
+                "path": "/cms/training-question-pool/"
+            },
+            {
+                "__name": "Training Result",
+                "name": { "en": "Training Result" },
+                "key": "ops-training-result",
+                "icon": "fas-layer-group",
+                "path": "/cms/training-result/"
+            },
+            {
+                "__name": "Partner Training",
+                "name": { "en": "Partner Training" },
+                "key": "ops-partner-training",
+                "icon": "fas-layer-group",
+                "path": "/cms/partner-training/"
+            },
+            
+            {
+                "__name": "Partner Test",
+                "name": { "en": "Partner Test" },
+                "key": "ops-partner-test",
+                "icon": "fas-vial",
+                "path": "/cms/partner-test/"
+            },
+             {
+                "__name": "Partner Test Result",
+                "name": { "en": "Partner Test Result" },
+                "key": "ops-partner-test-result",
+                "icon": "fas-vials",
+                "path": "/cms/partner-test-result/"
+            }
+        ]
+    },
+    {
+        "name": { "en": "Help" },
+        "key": "sp-help",
+        "icon": "fas-circle-question",
+        "child": [
+            {
+                "name": { "en": "Internal" },
+                "key": "sp-support-tenant",
+                "icon": "fas-circle-info",
+                "path": "/cms/support/tenant/"
+            },
+            {
+                "name": { "en": "Platform" },
+                "key": "sp-support-platform",
+                "icon": "fas-headset",
+                "path": "/cms/support/platform/"
+            }
+        ]
+    },
+    {
+        "name": { "en": "Messages[TODO]" },
+        "key": "sp-messages",
+        "icon": "fas-envelope",
+        "path": "/sp/:sender/sp/message/"
+    },
+    {
+        "name": { "en": "Setting" },
+        "key": "sp-setting",
+        "icon": "fas-circle-question",
+        "child": [
+            {
+                "name": { "en": "General" },
+                "key": "sp-setting-general",
+                "icon": "fas-gear",
+                "path": "/sp/settings"
+            },
+            {
+                "name": { "en": "Flow" },
+                "key": "sp-flow-setting",
+                "icon": "fas-headset",
+                "path": "/cms/flow-setting/"
+            },
+            {
+                "name": { "en": "Sender" },
+                "key": "sp-sender-setting",
+                "icon": "fas-headset",
+                "path": "/cms/sender-setting/"
+            }
+        ]
+    },
+    {
+        "name": { "en": "Demo Page" },
+        "key": "sp-demo-page-1",
+        "icon": "fas-circle-question",
+        "child": [
+            {
+            "name": { "en": "Task Pool & Route" },
+            "key": "ops-demo-task-pool-route",
+            "icon": "fas-flask",
+            "child": [
+                {
+                    "name": { "en": "Task pools Demo" },
+                    "key": "ops-task-pool-listing-demo",
+                    "icon": "fas-layer-group",
+                    "path": "/cms/task-pool-listing-demo/"
+                },
+                {
+                    "__name": "Orchestration replace planning",
+                    "name": { "en": "Route Plan" },
+                    "key": "ops-route-plan-list",
+                    "icon": "fas-route",
+                    "path": "/cms/route-plan-list/"
+                },
+                {
+                    "__name": "Route planning",
+                    "name": { "en": "Route Plan Demo" },
+                    "key": "ops-route-plan-demo",
+                    "icon": "fas-map",
+                    "path": "/cms/route-plan-demo/"
+                },
+                {
+                    "__name": "Orchestration replace planning2",
+                    "name": { "en": "Route Plan2" },
+                    "key": "ops-route-plan-list2",
+                    "icon": "fas-route",
+                    "path": "/cms/route-plan-list2/"
+                },
+                {
+                    "__name": "Question bank",
+                    "name": { "en": "Question bank" },
+                    "key": "ops-question-bank",
+                    "icon": "fas-database",
+                    "path": "/cms/training-question-bank/"
+                },
+                {
+                    "__name": "Question pool",
+                    "name": { "en": "Question pool" },
+                    "key": "ops-question-pool",
+                    "icon": "fas-layer-group",
+                    "path": "/cms/training-question-pool/"
+                }
+            ]
+        },
+        {
+            "name": { "en": "Cross Border" },
+            "key": "ops-cross-border",
+            "icon": "fas-globe",
+            "child": [
+                {
+                    "name": { "en": "1. Network command center" },
+                    "key": "ops-cross-border-network-command-center",
+                    "icon": "fas-tower-broadcast",
+                    "path": "/cms/cross-border-network-command-center/"
+                },
+                {
+                    "name": { "en": "2. Order Orchestration" },
+                    "key": "ops-cross-border-order-orchestration",
+                    "icon": "fas-diagram-project",
+                    "path": "/cms/cross-border-order-orchestration/"
+                },
+                {
+                    "name": { "en": "2.1 AI Orchestration" },
+                    "key": "ops-cross-border-ai-orchestration",
+                    "icon": "fas-brain",
+                    "path": "/cms/cross-border-ai-orchestration/"
+                },
+                {
+                    "name": { "en": "3. Route Optimizer" },
+                    "key": "ops-cross-border-route-optimizer",
+                    "icon": "fas-route",
+                    "path": "/cms/cross-border-route-optimizer/"
+                },
+                {
+                    "name": { "en": "4. Risk Radar" },
+                    "key": "ops-cross-border-predictive-risk-engine",
+                    "icon": "fas-shield-halved",
+                    "path": "/cms/cross-border-predictive-risk-engine/"
+                },
+                {
+                    "name": { "en": "3.1 Predictive Risk" },
+                    "key": "ops-cross-border-predictive-risk",
+                    "icon": "fas-triangle-exclamation",
+                    "path": "/cms/cross-border-predictive-risk/"
+                },
+                {
+                    "name": { "en": "5. Active Shipment Monitor" },
+                    "key": "ops-cross-border-active-shipment-monitor",
+                    "icon": "fas-eye",
+                    "path": "/cms/cross-border-active-shipment-monitor/"
+                },
+                {
+                    "name": { "en": "6. Incident Intelligence Hub" },
+                    "key": "ops-cross-border-incident-intelligence-hub",
+                    "icon": "fas-lightbulb",
+                    "path": "/cms/cross-border-incident-intelligence-hub/"
+                },
+                {
+                    "name": { "en": "7. Network Profit Intelligence" },
+                    "key": "ops-cross-border-network-profit-intelligence",
+                    "icon": "fas-coins",
+                    "path": "/cms/cross-border-network-profit-intelligence/"
+                },
+                {
+                    "name": { "en": "8. Automation Rules Engine" },
+                    "key": "ops-automation-rules-engine",
+                    "icon": "fas-gears",
+                    "path": "/cms/automation-rules-engine/"
+                },
+                {
+                    "name": { "en": "9. Strategic Intelligence" },
+                    "key": "ops-strategic-intelligence",
+                    "icon": "fas-chart-line",
+                    "path": "/cms/strategic-intelligence/"
+                },
+                {
+                    "name": { "en": "10. Network Allocation Control" },
+                    "key": "ops-network-allocation-control",
+                    "icon": "fas-sitemap",
+                    "path": "/cms/network-allocation-control/"
+                },
+                {
+                    "name": { "en": "Control Tower" },
+                    "key": "ops-cross-border-control-tower",
+                    "icon": "fas-tower-broadcast",
+                    "path": "/cms/cross-border-control-tower/"
+                },
+                {
+                    "name": { "en": "Margin Intelligence" },
+                    "key": "ops-cross-border-margin-intelligence",
+                    "icon": "fas-percentage",
+                    "path": "/cms/cross-border-margin-intelligence/"
+                }
+            ]
+        }, 
+        {
+            "name": { "en": "Network Operation" },
+            "key": "ops-network",
+            "icon": "fas-network-wired",
+            "child": [
+                {
+                    "name": { "en": "Control Tower" },
+                    "key": "ops-control-tower",
+                    "icon": "fas-tower-broadcast",
+                    "path": "/cms/control-tower/"
+                },
+                {
+                    "name": { "en": "Flow Orchestration" },
+                    "key": "ops-orchestration",
+                    "icon": "fas-diagram-project",
+                    "path": "/cms/orchestration/"
+                },
+                {
+                    "name": { "en": "Execution Visibility" },
+                    "key": "ops-execution",
+                    "icon": "fas-eye",
+                    "path": "/cms/execution/"
+                },
+                {
+                    "name": { "en": "Exception & Compliance Governance" },
+                    "key": "ops-compliance",
+                    "icon": "fas-scale-balanced",
+                    "path": "/cms/compliance/"
+                }
+            ]
+        }
+    ]
+    }
+    
+]
